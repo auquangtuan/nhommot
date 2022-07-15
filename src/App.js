@@ -7,6 +7,7 @@ import DefaultTemplate from './templates/DefaultTemplate/DefaultTemplate';
 function App() {
 
   return (
+    
     <Router >
       <Routes>
         {publicRoutes.map((route, index) => {
